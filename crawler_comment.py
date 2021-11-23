@@ -12,7 +12,7 @@ def readData(fileName):
             line = line[1:len(line) - 3]
             data.append(line)
         except:
-            print("error write line 1")
+            print("error write line")
     return data
 
 def writeFileTxt(fileName, content):
